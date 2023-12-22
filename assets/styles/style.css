@@ -81,13 +81,26 @@ p{
     text-align: center;
 }
 
+#calcula{
+    opacity: 0.8;
+}
+
+#calcula:hover{
+    opacity: 1;
+}
+
 .input-resultado{
-    margin-top: 40px;
+    margin-top: 20px;
     max-width: 200px;
     width: 100%;
 }
 
+
 #result{
-    color: aliceblue;
+    color: #f1f1f1;
     opacity: 1;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: darkorange;
 }
