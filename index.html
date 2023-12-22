@@ -4,32 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" container="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/calculator.ico">
+    <title>Calculadora DP</title>
 </head>
 <body>
     <main>
+        <div class="input-container">
+            <h1><strong>Calculadora de Depreciação</strong></h1>
+        </div>
         <section>
             <div class="input-container">
                 <h3>Valor do Equipamento</h3>
                 <p>informe o valor do produto novo</p>
-                <input type="text" id="equipamento" data-mask="000000" placeholder="...">
+                <input type="number" id="equipamento" placeholder="">
             </div>
             <div class="input-container">
                 <h3>Valor da Sucata</h3>
                 <p>informe o valor final do produto</p>
-                <input type="text" id="sucata" data-mask="000000" placeholder="...">
+                <input type="number" id="sucata" placeholder="">
             </div>
         </section>
         <section>
             <div class="input-container">
                 <h3>Vida Útil</h3>
                 <p>informe a vida útil do produto</p>
-                <input type="text" id="vida-util" data-mask="000000" placeholder="...">
+                <input type="number" id="vida-util" placeholder="">
             </div>
             <div class="input-container">
                 <h3>Tempo de Uso</h3>
-                <p>informe o tempo de uso em anos</p>
-                <input type="text" id="tempo-uso" data-mask="000000" placeholder="...">
+                <p>informe o tempo de uso em meses</p>
+                <input type="number" id="tempo-uso" placeholder="">
             </div>
         </section>
         <section>
@@ -40,6 +44,7 @@
         <section>
             <div class="input-resultado">
                 <p id="result"><strong>R$ Valor</strong></p>
+                <p id="result-2"><strong>R$ Valor</strong></p>
             </div>
         </section>
     </main>
